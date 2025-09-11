@@ -1,0 +1,17 @@
+{
+    "blogs": [
+        {
+        "id": 1,
+        "title": "Yosemite National Park",
+        "author": "yosemite",
+        "body": "A beautiful national park in California."
+        },
+
+        {
+        "id": 2,
+        "title": "Grand Canyon",
+        "author": "grandcanyon",
+        "body": "A magnificent natural wonder in Arizona."
+        }
+    ]
+}
