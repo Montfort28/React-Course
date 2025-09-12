@@ -1,5 +1,6 @@
 import { ToastContainer } from "react-toastify";
 import BlogList from "./BlogList";
+import Pract from "./Pract"
 import useFetch from "./useFetch"
 
 const Home = () => {
@@ -11,6 +12,9 @@ const Home = () => {
       {error && <div>{ error }</div>}
       {blogs && <BlogList blogs={blogs} title="All Blogs"/>}
       <ToastContainer />
+      <div>
+        <Pract />
+      </div>
     </div>
   );
 };
