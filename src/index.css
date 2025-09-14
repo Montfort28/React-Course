@@ -30,7 +30,7 @@
 }
 
 .link {
-  margin-left: 50px;
+  margin-left: 80px;
   text-decoration: none;
   padding: 10px;
   color: white;
@@ -64,4 +64,8 @@
   font-size: 24px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+
+.blog-preview a{
+  text-decoration: none;
 }
