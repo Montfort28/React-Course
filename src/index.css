@@ -66,6 +66,42 @@
   margin-bottom: 8px;
 }
 
-.blog-preview a{
+.blog-preview a {
   text-decoration: none;
+}
+
+.NewBlog {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.NewBlog label {
+  text-align: left;
+  display: block;
+}
+
+.NewBlog h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.NewBlog input, .NewBlog textarea, .NewBlog select {
+  width: 400px;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: block;
+}
+
+.NewBlog button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
